@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px; /* Sesuaikan ukuran logo */
+    display: block;
+    margin: 0 auto 10px; /* Pusatkan logo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.login-container input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+}
+
+.product-section, .cart-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+#cartItems {
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
